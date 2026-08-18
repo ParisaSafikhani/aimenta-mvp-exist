@@ -6,229 +6,105 @@
     <title>Aimenta MVP — EXIST Gründungsstipendium</title>
     <meta
       name="description"
-      content="Der Aimenta-MVP für den EXIST-Gründungsstipendium-Antrag: zwei Demo-Videos der Plattform für mehrsprachige psychologische Beratung."
+      content="Funktionierender Prototyp von Aimenta für den EXIST-Gründungsstipendium-Antrag: Videosession mit Originalstimme und Übersetzung sowie Therapist Workspace."
     />
     <link rel="icon" href="assets/aimenta-mark.png" type="image/png" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap"
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="styles.css" />
-    <link rel="stylesheet" href="mvp.css" />
   </head>
   <body>
-    <div class="landing-page">
-      <header class="site-header">
-        <div class="wrap header-inner">
-          <a class="brand" href="#top" aria-label="Aimenta MVP">
-            <span class="brand-mark" aria-hidden="true">
-              <img src="assets/aimenta-mark.png" alt="" width="40" height="40" />
-            </span>
-            <span class="brand-name">Aimenta</span>
-          </a>
-          <nav class="nav-main" aria-label="Hauptnavigation">
-            <a href="#demo">Demo-Videos</a>
-            <a href="#mvp">Der MVP</a>
-            <a href="#exist">EXIST</a>
-          </nav>
-          <div class="header-actions">
-            <button type="button" class="icon-btn" id="theme-toggle" aria-label="Dunkelmodus umschalten" title="Dunkelmodus umschalten">
-              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true">
-                <path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"></path>
-              </svg>
-            </button>
-            <a class="btn btn-ghost" href="https://aimenta.com/" target="_blank" rel="noopener">aimenta.com</a>
-            <a class="btn btn-primary" href="#demo">Videos ansehen</a>
-          </div>
-        </div>
-      </header>
+    <header class="header">
+      <div class="wrap header-inner">
+        <a class="brand" href="#top">
+          <img src="assets/aimenta-mark.png" alt="" width="36" height="36" />
+          <span>Aimenta</span>
+        </a>
+        <nav>
+          <a href="#demos">Demos</a>
+          <a href="#scope">MVP-Umfang</a>
+          <a href="https://aimenta.com/" target="_blank" rel="noopener">aimenta.com</a>
+        </nav>
+      </div>
+    </header>
 
-      <main id="top">
-        <section class="hero" aria-labelledby="hero-title">
-          <div class="hero-atmosphere" aria-hidden="true"></div>
-          <div class="wrap hero-grid">
-            <div class="hero-copy">
-              <p class="eyebrow">EXIST Gründungsstipendium</p>
-              <h1 id="hero-title">Der Aimenta MVP — sichtbar, ruhig, bereit.</h1>
-              <p class="hero-lead">
-                Zwei Demo-Videos zeigen den aktuellen Stand unserer Plattform: Menschen finden passende
-                Unterstützung, Therapeutinnen und Therapeuten arbeiten in einem klaren Workspace —
-                in einem privaten Raum, der auf Vertrauen ausgelegt ist.
-              </p>
-              <div class="hero-actions">
-                <a class="btn btn-primary btn-lg" href="#demo">MVP-Videos öffnen</a>
-                <a class="btn btn-secondary btn-lg" href="#mvp">Was der MVP kann</a>
-              </div>
-            </div>
-            <div class="hero-visual">
-              <figure class="hero-frame">
-                <img
-                  class="hero-frame-image"
-                  src="assets/hero-connection.jpg"
-                  alt="Zwei Hände, die sich entgegenstrecken — ein ruhiger Moment menschlicher Verbindung"
-                  width="960"
-                  height="1200"
-                />
-                <figcaption class="hero-caption">
-                  <strong>Mental healthcare, made human</strong>
-                  <span>Sichere Sessions. Klare Buchung. Raum zum Atmen.</span>
-                </figcaption>
-              </figure>
-            </div>
-          </div>
-        </section>
+    <main id="top">
+      <section class="intro wrap">
+        <p class="kicker">EXIST Gründungsstipendium · Prototyp</p>
+        <h1>Aimenta MVP</h1>
+        <p class="lead">
+          Funktionierender Prototyp der Plattform: mehrsprachige Videosession und Therapist Workspace.
+          Die Aufnahmen dokumentieren den aktuellen Stand für die Begutachtung.
+        </p>
+      </section>
 
-        <section class="personas" id="demo" aria-labelledby="demo-title">
-          <div class="wrap">
-            <div class="section-head">
-              <h2 id="demo-title">Zwei Wege durch den MVP</h2>
-              <p>
-                Dieselben Türen wie auf aimenta.com — hier als gefilmte Produktdemos für den EXIST-Antrag.
-                Bitte Ton einschalten; beide Videos sind in Full-HD.
-              </p>
-            </div>
-            <div class="persona-grid demo-grid">
-              <article class="persona persona--patient">
-                <p class="persona-kicker">Für Klientinnen & Klienten · 5:04 Min.</p>
-                <h3>Sichere Videosession mit Übersetzung</h3>
-                <p>
-                  Live-Session im Aimenta-MVP: Verbindung, Bild und Ton, Captions und
-                  Übersetzungsleiste — die Versorgung, die im Gespräch stattfindet.
-                </p>
-                <div class="video-frame">
-                  <video
-                    controls
-                    playsinline
-                    preload="metadata"
-                    poster="assets/poster-hayastan.jpg"
-                    title="Aimenta MVP — Walkthrough Hayastan"
-                  >
-                    <source src="videos/hayastan.mp4" type="video/mp4" />
-                    Ihr Browser unterstützt das Video-Element nicht.
-                  </video>
-                </div>
-              </article>
-              <article class="persona persona--therapist">
-                <p class="persona-kicker">Für Therapeutinnen & Therapeuten · 6:54 Min.</p>
-                <h3>Therapist Workspace</h3>
-                <p>
-                  Der ruhige Arbeitsbereich im MVP: Verfügbarkeit, Slots, Buchungen und
-                  Sessions — damit mehr Zeit bei den Menschen bleibt, die versorgt werden.
-                </p>
-                <div class="video-frame">
-                  <video
-                    controls
-                    playsinline
-                    preload="metadata"
-                    poster="assets/poster-parisa.jpg"
-                    title="Aimenta MVP — Walkthrough Parisa"
-                  >
-                    <source src="videos/parisa.mp4" type="video/mp4" />
-                    Ihr Browser unterstützt das Video-Element nicht.
-                  </video>
-                </div>
-              </article>
-            </div>
-          </div>
-        </section>
+      <section class="wrap" id="demos">
+        <h2>Screencasts</h2>
+        <p class="section-note">Bitte Ton einschalten. Beide Demos zeigen den laufenden Prototyp, nicht Mock-ups.</p>
 
-        <section id="mvp" aria-labelledby="mvp-title">
-          <div class="wrap">
-            <div class="section-head">
-              <h2 id="mvp-title">Was der MVP bereits zeigt</h2>
-              <p>Die gleichen Stärken wie auf aimenta.com — hier als funktionierender Prototyp.</p>
-            </div>
-            <div class="benefits-list">
-              <div class="benefit">
-                <h3>Menschliche Verbindung</h3>
-                <p>
-                  Lizenzierte Fachkräfte und echte Gespräche. Technologie bleibt im Hintergrund,
-                  damit die Beziehung führen kann — inklusive Sprachunterstützung, wenn sie gebraucht wird.
-                </p>
-              </div>
-              <div class="benefit">
-                <h3>Privat by design</h3>
-                <p>
-                  Sichere Videosessions, sorgfältiger Umgang mit Daten und eine ruhige Oberfläche,
-                  die die Sensibilität psychischer Gesundheit respektiert.
-                </p>
-              </div>
-              <div class="benefit">
-                <h3>Klar vom ersten Schritt</h3>
-                <p>
-                  Transparente Buchung, Sprachpräferenzen und nachvollziehbare nächste Schritte —
-                  kein Labyrinth aus Produktbildschirmen, bevor Versorgung beginnt.
-                </p>
-              </div>
-              <div class="benefit">
-                <h3>Eine Marke, zwei Räume</h3>
-                <p>
-                  Klientinnen und Klienten sowie Therapeutinnen und Therapeuten erhalten jeweils
-                  eine eigene Erfahrung — verbunden durch denselben Aimenta-Standard aus Ruhe und Fürsorge.
-                </p>
-              </div>
-            </div>
+        <article class="demo">
+          <p class="meta">Demo 01 · Videosession · 5:04 Min.</p>
+          <h3>Live-Übersetzung in der Session</h3>
+          <p>
+            Der Screencast zeigt eine laufende Videosession im MVP. Für die Begutachtung sind
+            Originalstimme der sprechenden Person und Live-Übersetzung gleichzeitig aktiviert.
+            Gutachterinnen und Gutachter können Quelle und Übersetzung so direkt miteinander vergleichen.
+          </p>
+          <div class="video-frame">
+            <video
+              controls
+              playsinline
+              preload="metadata"
+              poster="assets/poster-hayastan.jpg"
+              title="Aimenta MVP — Videosession mit Originalstimme und Übersetzung"
+            >
+              <source src="videos/hayastan.mp4" type="video/mp4" />
+              Ihr Browser unterstützt das Video-Element nicht.
+            </video>
           </div>
-        </section>
+        </article>
 
-        <section class="closing" id="exist" aria-labelledby="exist-title">
-          <div class="wrap">
-            <div class="closing-panel">
-              <h2 id="exist-title">Bereit für den EXIST-Antrag</h2>
-              <p>
-                Diese Seite dokumentiert den Aimenta-MVP für das EXIST Gründungsstipendium.
-                Die Live-Marke und der nächste Schritt bleiben aimenta.com.
-              </p>
-              <div class="closing-actions">
-                <a class="btn btn-primary btn-lg" href="#demo">Videos noch einmal ansehen</a>
-                <a class="btn btn-secondary btn-lg" href="https://aimenta.com/" target="_blank" rel="noopener">Zur Markenwebsite</a>
-              </div>
-            </div>
+        <article class="demo">
+          <p class="meta">Demo 02 · Therapist Workspace · 6:54 Min.</p>
+          <h3>Arbeitsbereich für Therapeutinnen und Therapeuten</h3>
+          <p>
+            Der Screencast zeigt den Therapist Workspace im MVP: Verfügbarkeit, Zeitslots,
+            Buchungen und Sessions in einem zusammenhängenden Arbeitsablauf.
+          </p>
+          <div class="video-frame">
+            <video
+              controls
+              playsinline
+              preload="metadata"
+              poster="assets/poster-parisa.jpg"
+              title="Aimenta MVP — Therapist Workspace"
+            >
+              <source src="videos/parisa.mp4" type="video/mp4" />
+              Ihr Browser unterstützt das Video-Element nicht.
+            </video>
           </div>
-        </section>
-      </main>
+        </article>
+      </section>
 
-      <footer class="site-footer">
-        <div class="wrap footer-inner">
-          <div class="brand">
-            <span class="brand-mark" aria-hidden="true">
-              <img src="assets/aimenta-mark.png" alt="" width="40" height="40" />
-            </span>
-            <span class="brand-name">Aimenta</span>
-          </div>
-          <p>© 2026 Aimenta. MVP-Demo für das EXIST Gründungsstipendium.</p>
-        </div>
-      </footer>
-    </div>
+      <section class="wrap scope" id="scope">
+        <h2>Was der MVP abbildet</h2>
+        <ul>
+          <li>Sichere Videosession zwischen Klientin/Klient und Fachkraft</li>
+          <li>Gleichzeitige Ausgabe von Originalstimme und Übersetzung zum direkten Vergleich</li>
+          <li>Therapist Workspace für Verfügbarkeit, Buchung und Session-Verwaltung</li>
+          <li>Getrennte Oberflächen für Klientenseite und Therapeutenseite</li>
+        </ul>
+      </section>
+    </main>
 
-    <script>
-      (function () {
-        var root = document.documentElement;
-        var stored = null;
-        try {
-          stored = localStorage.getItem("aimenta-theme");
-        } catch (e) {}
-        var prefersDark = window.matchMedia("(prefers-color-scheme: dark)").matches;
-        var theme = stored || (prefersDark ? "dark" : "light");
-        function apply(next) {
-          theme = next;
-          root.classList.remove("light", "dark");
-          root.classList.add(next);
-          root.style.colorScheme = next;
-          try {
-            localStorage.setItem("aimenta-theme", next);
-          } catch (e) {}
-        }
-        apply(theme);
-        var btn = document.getElementById("theme-toggle");
-        if (btn) {
-          btn.addEventListener("click", function () {
-            apply(theme === "dark" ? "light" : "dark");
-          });
-        }
-      })();
-    </script>
+    <footer class="footer">
+      <div class="wrap">
+        <p>Aimenta · MVP-Dokumentation für das EXIST Gründungsstipendium · 2026</p>
+      </div>
+    </footer>
   </body>
 </html>
